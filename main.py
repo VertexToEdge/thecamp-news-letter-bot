@@ -4,7 +4,7 @@ import base64
 from urllib import parse
 import datetime
 
-MOYA_AI_API_TOKEN = os.environ.get('MOYA_AI_API_TOKEN')
+MOYA_AI_API_TOKEN = os.environ.get('MOYA_AI_API_TOKEN') # https://watch.moya.ai/moyaapi
 THECAMP_EMAIL = os.environ.get('THECAMP_EMAIL')
 THECAMP_PASSWORD = base64.b64decode( os.environ.get('THECAMP_PASSWORD')).decode('utf-8')
 TRAINEES = [
